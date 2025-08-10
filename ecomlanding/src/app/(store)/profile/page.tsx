@@ -1,13 +1,13 @@
 //this is /Users/sahibabc/ecomLanding/ecomlanding/src/app/profile/page.tsx
 "use client";
-import { useAuthStore } from "../../lib/store/useAuthStore";
+import { useAuthStore } from "../../../lib/store/useAuthStore";
 import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
-import UserAvatar from "../../components/common/UserAvatar";
+import UserAvatar from "../../../components/common/UserAvatar";
 import { toast } from "sonner";
-import ConfirmModal from "../../components/common/ConfirmModal";
-import AddressBook from "../../components/profile/AddressBook";
-import ChangePassword from "../../components/profile/ChangePassword";
+import ConfirmModal from "../../../components/common/ConfirmModal";
+import AddressBook from "../../../components/profile/AddressBook";
+import ChangePassword from "../../../components/profile/ChangePassword";
 
 export default function ProfilePage() {
     const { user, setAvatar, removeAvatar, logout } = useAuthStore();

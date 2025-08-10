@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Order } from "../../../lib/types/order";
-import { ordersApi } from "../../../lib/api/orders";
-import Pagination from "../../../components/common/Pagination";
+import { Order } from "../../../../lib/types/order";
+import { ordersApi } from "../../../../lib/api/orders";
+import Pagination from "../../../../components/common/Pagination";
 
 type SortOption = "date" | "total";
 type SortOrder = "asc" | "desc";

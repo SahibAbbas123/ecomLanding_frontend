@@ -1,7 +1,7 @@
 // this is /Users/sahibabc/ecomLanding/ecomlanding/src/app/checkout/page.tsx
 "use client";
 import { useState } from "react";
-import { useCartStore } from "../../lib/store/useCartStore";
+import { useCartStore } from "../../../lib/store/useCartStore";
 import Link from "next/link";
 
 const steps = ["Address", "Shipping", "Payment", "Review"];

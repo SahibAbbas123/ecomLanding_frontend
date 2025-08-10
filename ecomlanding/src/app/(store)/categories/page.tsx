@@ -1,6 +1,6 @@
 //this /Users/sahibabc/ecomLanding/ecomlanding/src/app/categories/page.tsx
 "use client";
-import { categories } from "../../lib/data/categories";
+import { categories } from "../../../lib/data/categories";
 import Link from "next/link";
 
 export default function CategoriesPage() {
@@ -16,7 +16,7 @@ export default function CategoriesPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-xl font-bold mb-1">{cat.name}</h3>
-              <p className="text-sm text-gray-200">{cat.itemCount} items</p>
+              {/* <p className="text-sm text-gray-200">{cat.itemCount} items</p> */}
             </div>
           </Link>
         ))}

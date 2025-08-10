@@ -1,5 +1,5 @@
 // this is /Users/sahibabc/ecomLanding/ecomlanding/src/app/checkout/layout.tsx
-import Header from "../../components/layout/Header";
+import Header from "../../../components/layout/Header";
 
 export default function CheckoutLayout({ children }: { children: React.ReactNode }) {
   return (

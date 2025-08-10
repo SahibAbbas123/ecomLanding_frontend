@@ -1,6 +1,6 @@
 //this is /Users/sahibabc/ecomLanding/ecomlanding/src/app/cart/page.tsx
 "use client";
-import { useCartStore } from "../../lib/store/useCartStore";
+import { useCartStore } from "../../../lib/store/useCartStore";
 import Link from "next/link";
 
 export default function CartPage() {

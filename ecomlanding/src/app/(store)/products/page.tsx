@@ -1,11 +1,11 @@
 // this is /Users/sahibabc/ecomLanding/ecomlanding/src/app/products/page.tsx
 "use client";
 import React, { useState, useMemo } from "react";
-import { products } from "../../lib/data/products";
-import { categories } from "../../lib/data/categories";
-import ProductGrid from "../../components/categories/ProductGrid";
-import SearchBar from "../../components/categories/SearchBar";
-import Pagination from "../../components/common/Pagination";
+import { products } from "../../../lib/data/products";
+import { categories } from "../../../lib/data/categories";
+import ProductGrid from "../../../components/categories/ProductGrid";
+import SearchBar from "../../../components/categories/SearchBar";
+import Pagination from "../../../components/common/Pagination";
 
 function CategoryFilter({ value, onChange }) {
   return (
